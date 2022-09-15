@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+vector<int>removeDuplicates(vector<int>&arr, int size){
+   int num[100] ={0};
+   vector<int> vec;
+   for(int i=0;i<size;i++){
+      if(num[arr[i]] ==0){
+         num[arr[i]]=1;
+         vec.push_back(arr[i]);
+      }
+   }
+   return vec;
+}
+int main(){
+   int N= 8;
+   vector<int>arr={2,2,2,3,3,3,5,7};
+   vector<int>answer= removeDuplicates(arr,N);
+   for(int i=0;i<answer.size();i++){
+      cout<<removeDuplicates(arr,N)<<endl;
+   }
+   return 0;
+}
