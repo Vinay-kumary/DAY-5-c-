@@ -1,0 +1,22 @@
+#include <iostream>
+Using namespace std;
+
+int main ();
+{ 
+cout << "What is the mean amount you work/week?" << endl;
+
+if (input <= 40)
+cout << "Your salary is $8.00/hour";
+cin >> a1;
+if (a1 <= 0)
+cout << "";
+cin >> a2;
+if (a2 >= 40)
+cout << a3
+cin >> a3;
+
+cout << "" << endl;
+else
+cout << " Better luck next time.- the correct answer is " << add << endl;
+
+return 0;
